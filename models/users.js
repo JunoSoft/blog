@@ -1,7 +1,6 @@
 const mongoose  =  require('mongoose');
 const joi =  require("joi");
 
-const postId = "";
 
   const userSchema =   new mongoose.Schema({
     name:{
