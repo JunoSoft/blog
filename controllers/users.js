@@ -18,7 +18,7 @@ exports.user = async (req, res, next) => {
     res.send(result);
     console.log(result);
 
-    res.send("user is created Well");
+    res.send("user is created Well...");
 
 
 next();
